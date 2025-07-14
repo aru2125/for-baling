@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baling music merchandise</title>
+    <link rel="icon" type="image/png" href="favicon-32x32.png" />
+</head>
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f0f0f;
+  color: #f0f0f0;
+}
+
+.fixed-logo {
+  position: fixed;
+  top: 10px;
+  left: 15px;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.fixed-logo img {
+  height: 40px;
+}
+
+header {
+  text-align: center;
+  padding: 100px 20px 50px;
+  background: linear-gradient(to bottom right, #1a1a1a, #111);
+}
+
+header h1 {
+  font-size: 3em;
+  margin: 0;
+  color: #1db954;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+.brand-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.product-card {
+  background: #1c1c1c;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-img-link img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  border-bottom: 1px solid #333;
+}
+
+.product-img-link:hover img {
+  transform: scale(1.05);
+}
+
+.product-details {
+  padding: 20px;
+}
+
+.product-details h2 {
+  margin: 0 0 10px;
+  color: #ffd700;
+  font-size: 1.4em;
+}
+
+.product-details p {
+  margin-bottom: 12px;
+  font-size: 0.95em;
+  color: #bbb;
+}
+
+.price-tag {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #1db954;
+  margin-bottom: 10px;
+}
+
+.order-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #1db954;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.order-btn:hover {
+  background: #ffd700;
+  color: #000;
+}
+
+footer {
+  background: #111;
+  text-align: center;
+  padding: 20px;
+  color: #888;
+  font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2em;
+  }
+  .product-details h2 {
+    font-size: 1.2em;
+  }
+}
+</style>
+<body>
+  <div class="fixed-logo">
+    <img src="favicon.ico" alt="Baling Music Logo" />
+  </div>
+  
+<header>
+  <h1>Baling Merch Shop</h1>
+  <p>Wear the rhythm. Represent the vibe.</p>
+</header>
+
+<div class="brand-grid">
+
+  <!-- Product 1 -->
+  <div class="product-card">
+    <a href="https://wa.me/256712345678?text=Hi%20Baling%20Music,%20I%20want%20to%20order%20the%20Signature%20T-shirt." target="_blank" class="product-img-link">
+      <img src="brand (1).jpg" alt="Baling Music T-shirt" />
+    </a>
+    <div class="product-details">
+      <h2>Signature T-shirt</h2>
+      <p>Black tee with Baling logo in white print. Soft, breathable, and bold.</p>
+      <div class="price-tag">$20 • In Stock</div>
+    </div>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="product-card">
+    <a href="https://wa.me/256712345678?text=Hi%20Baling%20Music,%20I%20want%20to%20order%20the%20Logo%20Snapback%20Cap." target="_blank" class="product-img-link">
+      <img src="brand (10).JPG" alt="Baling Music Cap" />
+    </a>
+    <div class="product-details">
+      <h2>Logo Snapback Cap</h2>
+      <p>Flat-brim adjustable cap with stitched logo in gold and green.</p>
+      <div class="price-tag">$15 • Limited</div>
+    </div>
+  </div>
+
+  <!-- Product 3 -->
+  <div class="product-card">
+    <a href="https://wa.me/256712345678?text=Hi%20Baling%20Music,%20I%20want%20to%20order%20the%20Gold-Line%20Hoodie." target="_blank" class="product-img-link">
+      <img src="brand (11).JPG" alt="Baling Music Hoodie" />
+    </a>
+    <div class="product-details">
+      <h2>Gold-Line Hoodie</h2>
+      <p>Cozy premium hoodie with green-gold embroidery and front pocket.</p>
+      <div class="price-tag">$35 • Pre-Order</div>
+    </div>
+  </div>
+
+</div>
+ <!-- Product 4 -->
+  <div class="product-card">
+    <a href="https://wa.me/256712345678?text=Hi%20Baling%20Music,%20I%20want%20to%20order%20the%20Signature%20T-shirt." target="_blank" class="product-img-link">
+      <img src="brand (12).JPG" alt="Baling Music T-shirt" />
+    </a>
+    <div class="product-details">
+      <h2>Signature T-shirt</h2>
+      <p>Black tee with Baling logo in white print. Soft, breathable, and bold.</p>
+      <div class="price-tag">$20 • In Stock</div>
+    </div>
+  </div>
+
+  <!-- Product 5 -->
+  <div class="product-card">
+    <a href="https://wa.me/256712345678?text=Hi%20Baling%20Music,%20I%20want%20to%20order%20the%20Logo%20Snapback%20Cap." target="_blank" class="product-img-link">
+      <img src="brand (13).jpg" alt="Baling Music Cap" />
+    </a>
+    <div class="product-details">
+      <h2>Logo Snapback Cap</h2>
+      <p>Flat-brim adjustable cap with stitched logo in gold and green.</p>
+      <div class="price-tag">$15 • Limited</div>
+    </div>
+  </div>
+
+  <!-- Product 6 -->
+  <div class="product-card">
+    <a href="https://wa.me/256712345678?text=Hi%20Baling%20Music,%20I%20want%20to%20order%20the%20Gold-Line%20Hoodie." target="_blank" class="product-img-link">
+      <img src="brand (14).jpg" alt="Baling Music Hoodie" />
+    </a>
+    <div class="product-details">
+      <h2>Gold-Line Hoodie</h2>
+      <p>Cozy premium hoodie with green-gold embroidery and front pocket.</p>
+      <div class="price-tag">$35 • Pre-Order</div>
+    </div>
+  </div>
+
+</div>
+ <!-- Product 7 -->
+  <div class="product-card">
+    <a href="https://wa.me/256712345678?text=Hi%20Baling%20Music,%20I%20want%20to%20order%20the%20Signature%20T-shirt." target="_blank" class="product-img-link">
+      <img src="brand (15).JPG" alt="Baling Music T-shirt" />
+    </a>
+    <div class="product-details">
+      <h2>Signature T-shirt</h2>
+      <p>Black tee with Baling logo in white print. Soft, breathable, and bold.</p>
+      <div class="price-tag">$20 • In Stock</div>
+    </div>
+  </div>
+
+  <!-- Product 8 -->
+  <div class="product-card">
+    <a href="https://wa.me/256712345678?text=Hi%20Baling%20Music,%20I%20want%20to%20order%20the%20Logo%20Snapback%20Cap." target="_blank" class="product-img-link">
+      <img src="brand (16).jpg" alt="Baling Music Cap" />
+    </a>
+    <div class="product-details">
+      <h2>Logo Snapback Cap</h2>
+      <p>Flat-brim adjustable cap with stitched logo in gold and green.</p>
+      <div class="price-tag">$15 • Limited</div>
+    </div>
+  </div>
+
+  <!-- Product 9 -->
+  <div class="product-card">
+    <a href="https://wa.me/256712345678?text=Hi%20Baling%20Music,%20I%20want%20to%20order%20the%20Gold-Line%20Hoodie." target="_blank" class="product-img-link">
+      <img src="brand (17).jpg" alt="Baling Music Hoodie" />
+    </a>
+    <div class="product-details">
+      <h2>Gold-Line Hoodie</h2>
+      <p>Cozy premium hoodie with green-gold embroidery and front pocket.</p>
+      <div class="price-tag">$35 • Pre-Order</div>
+    </div>
+  </div>
+
+</div>
+ 
+
+<footer>
+  <p>&copy; 2025 Baling Music. Designed by Aru.</p>
+</footer>
+
+</body>
+</html>
